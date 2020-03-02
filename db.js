@@ -2,7 +2,7 @@ const MongoClient=require("mongodb").MongoClient;
 const ObjectID=require('mongodb').ObjectID;
 
 const dbname="dbpr";
-const url= "mongodb+srv://project1234:root12@cluster0-ninql.mongodb.net/test?retryWrites=true&w=majority";
+const url= "MONGODB_URL_GOES_HERE";
 const mongoOptions={useNewUrlParser:true};
 
 const state={db:null};
